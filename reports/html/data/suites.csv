@@ -1,5 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Tue May 26 11:28:04 CST 2020","Tue May 26 11:28:04 CST 2020","160","testcases","注册","TestTegister","","","注册成功","注册成功"
-"passed","Tue May 26 11:28:04 CST 2020","Tue May 26 11:28:04 CST 2020","105","testcases","注册","TestTegister","","","注册成功-不带类型和注册名","注册成功"
-"passed","Tue May 26 11:28:04 CST 2020","Tue May 26 11:28:04 CST 2020","110","testcases","注册","TestTegister","","","注册成功-不带类型","注册成功"
-"passed","Tue May 26 11:28:04 CST 2020","Tue May 26 11:28:04 CST 2020","104","testcases","注册","TestTegister","","","注册成功-不带注册名","注册成功"
