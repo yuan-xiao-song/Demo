@@ -1,40 +1,40 @@
 [ {
-  "uid" : "3d3bf03e36412f8d",
-  "name" : "注册成功-不带注册名",
-  "time" : {
-    "start" : 1590139961143,
-    "stop" : 1590139961512,
-    "duration" : 369
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "4e067c6dd88682ad",
-  "name" : "注册成功-不带类型和注册名",
-  "time" : {
-    "start" : 1590139961517,
-    "stop" : 1590139961913,
-    "duration" : 396
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "bf49f9b5ec999a60",
-  "name" : "注册成功",
-  "time" : {
-    "start" : 1590139960352,
-    "stop" : 1590139960749,
-    "duration" : 397
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "4557b30e07a45aee",
+  "uid" : "ea24274d49897f98",
   "name" : "注册成功-不带类型",
   "time" : {
-    "start" : 1590139960754,
-    "stop" : 1590139961138,
-    "duration" : 384
+    "start" : 1590463684546,
+    "stop" : 1590463684656,
+    "duration" : 110
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "b02a1d79d248bd78",
+  "name" : "注册成功-不带类型和注册名",
+  "time" : {
+    "start" : 1590463684768,
+    "stop" : 1590463684873,
+    "duration" : 105
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "78b65fabf5465881",
+  "name" : "注册成功-不带注册名",
+  "time" : {
+    "start" : 1590463684660,
+    "stop" : 1590463684764,
+    "duration" : 104
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "40dd2c05cb82dec8",
+  "name" : "注册成功",
+  "time" : {
+    "start" : 1590463684381,
+    "stop" : 1590463684541,
+    "duration" : 160
   },
   "status" : "passed",
   "severity" : "critical"
