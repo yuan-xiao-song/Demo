@@ -1,0 +1,198 @@
+{
+  "uid" : "b7b71de48cf1556f",
+  "name" : "注册成功-不带类型",
+  "fullName" : "testcases.test_demo1.TestTegister#test_register_success",
+  "historyId" : "07d36aa1d0413197d1ce03bf733f3c77",
+  "time" : {
+    "start" : 1590139949136,
+    "stop" : 1590139949138,
+    "duration" : 2
+  },
+  "description" : "注册成功",
+  "descriptionHtml" : "<p>注册成功</p>\n",
+  "status" : "broken",
+  "statusMessage" : "AttributeError: module 'allure' has no attribute 'MASTER_HELPER'",
+  "statusTrace" : "self = <testcases.test_demo1.TestTegister object at 0x000001DE72CEC3C8>\ncase = {'case_id': 2, 'check_sql': 'SELECT * FROM futureloan.member WHERE mobile_phone = \"{}\"', 'data': '{\"mobile_phone\": \"13309406558\",\"pwd\": \"FSqjlV6dj\",\"reg_name\":\"赵云\"}', 'expected': '{\"code\": 0,\"msg\": \"OK\",}', ...}\n\n    @pytest.mark.parametrize(\"case\", cases1)\n    @allure.title(\"{case[title]}\")  # 用例名称\n    @allure.story(\"注册正常情况\")  # 特性场景\n    @allure.description(\"注册成功\")  # 用例描述\n    @allure.tag(\"注册\")  # 标签\n    def test_register_success(self, case):\n        allure.dynamic()\n        with allure.step(\"第一步：准备数据\"):\n            with allure.step(\"接口地址\"):\n                url = conf.get(\"env\", \"host\") + case[\"url\"]\n                allure.attach(body=url, name=\"接口请求地址\")  # , extension=allure.attachment_type.TEXT\n            with allure.step(\"请求方法\"):\n                method = case[\"method\"]\n                allure.attach(body=method, name=\"接口请求方法\", extension=allure.attachment_type.TEXT)\n                headers = eval(conf.get(\"env\", \"headers\"))\n            with allure.step(\"请求数据\"):\n                case[\"data\"] = replace_data(case[\"data\"])\n                json = case[\"data\"]\n                allure.attach(body=json, name=\"用例数据\", extension=allure.attachment_type.JSON)\n            with allure.step(\"预期结果\"):\n                expected = eval(case[\"expected\"])\n>               allure.MASTER_HELPER.attach(body=case[\"expected\"], name=\"预期结果\", extension=allure.attachment_type.TEXT)\nE               AttributeError: module 'allure' has no attribute 'MASTER_HELPER'\n\ntestcases\\test_demo1.py:54: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "rand_number",
+    "time" : {
+      "start" : 1590139949135,
+      "stop" : 1590139949135,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "注册成功",
+    "status" : "broken",
+    "statusMessage" : "AttributeError: module 'allure' has no attribute 'MASTER_HELPER'",
+    "statusTrace" : "self = <testcases.test_demo1.TestTegister object at 0x000001DE72CEC3C8>\ncase = {'case_id': 2, 'check_sql': 'SELECT * FROM futureloan.member WHERE mobile_phone = \"{}\"', 'data': '{\"mobile_phone\": \"13309406558\",\"pwd\": \"FSqjlV6dj\",\"reg_name\":\"赵云\"}', 'expected': '{\"code\": 0,\"msg\": \"OK\",}', ...}\n\n    @pytest.mark.parametrize(\"case\", cases1)\n    @allure.title(\"{case[title]}\")  # 用例名称\n    @allure.story(\"注册正常情况\")  # 特性场景\n    @allure.description(\"注册成功\")  # 用例描述\n    @allure.tag(\"注册\")  # 标签\n    def test_register_success(self, case):\n        allure.dynamic()\n        with allure.step(\"第一步：准备数据\"):\n            with allure.step(\"接口地址\"):\n                url = conf.get(\"env\", \"host\") + case[\"url\"]\n                allure.attach(body=url, name=\"接口请求地址\")  # , extension=allure.attachment_type.TEXT\n            with allure.step(\"请求方法\"):\n                method = case[\"method\"]\n                allure.attach(body=method, name=\"接口请求方法\", extension=allure.attachment_type.TEXT)\n                headers = eval(conf.get(\"env\", \"headers\"))\n            with allure.step(\"请求数据\"):\n                case[\"data\"] = replace_data(case[\"data\"])\n                json = case[\"data\"]\n                allure.attach(body=json, name=\"用例数据\", extension=allure.attachment_type.JSON)\n            with allure.step(\"预期结果\"):\n                expected = eval(case[\"expected\"])\n>               allure.MASTER_HELPER.attach(body=case[\"expected\"], name=\"预期结果\", extension=allure.attachment_type.TEXT)\nE               AttributeError: module 'allure' has no attribute 'MASTER_HELPER'\n\ntestcases\\test_demo1.py:54: AttributeError",
+    "steps" : [ {
+      "name" : "第一步：准备数据",
+      "time" : {
+        "start" : 1590139949136,
+        "stop" : 1590139949138,
+        "duration" : 2
+      },
+      "status" : "broken",
+      "statusMessage" : "AttributeError: module 'allure' has no attribute 'MASTER_HELPER'\n",
+      "statusTrace" : "  File \"D:\\PycharmProjects\\Demo\\testcases\\test_demo1.py\", line 54, in test_register_success\n    allure.MASTER_HELPER.attach(body=case[\"expected\"], name=\"预期结果\", extension=allure.attachment_type.TEXT)\n",
+      "steps" : [ {
+        "name" : "接口地址",
+        "time" : {
+          "start" : 1590139949136,
+          "stop" : 1590139949136,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "3c983a0972cb1063",
+          "name" : "接口请求地址",
+          "source" : "3c983a0972cb1063.attach",
+          "type" : "text/plain",
+          "size" : 50
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "请求方法",
+        "time" : {
+          "start" : 1590139949136,
+          "stop" : 1590139949137,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "59468293f4e9951d",
+          "name" : "接口请求方法",
+          "source" : "59468293f4e9951d.TEXT",
+          "type" : "text/plain",
+          "size" : 4
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "请求数据",
+        "time" : {
+          "start" : 1590139949137,
+          "stop" : 1590139949137,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "b1650f1077c1576b",
+          "name" : "用例数据",
+          "source" : "b1650f1077c1576b.JSON",
+          "type" : "application/json",
+          "size" : 70
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "预期结果",
+        "time" : {
+          "start" : 1590139949137,
+          "stop" : 1590139949137,
+          "duration" : 0
+        },
+        "status" : "broken",
+        "statusMessage" : "AttributeError: module 'allure' has no attribute 'MASTER_HELPER'\n",
+        "statusTrace" : "  File \"D:\\PycharmProjects\\Demo\\testcases\\test_demo1.py\", line 54, in test_register_success\n    allure.MASTER_HELPER.attach(body=case[\"expected\"], name=\"预期结果\", extension=allure.attachment_type.TEXT)\n",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : true,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 3,
+      "hasContent" : true,
+      "stepsCount" : 4
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 3,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "注册正常情况"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "注册功能"
+  }, {
+    "name" : "suite",
+    "value" : "注册"
+  }, {
+    "name" : "tag",
+    "value" : "注册"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTegister"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-VSKKTCM"
+  }, {
+    "name" : "thread",
+    "value" : "18244-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_demo1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'case_id': 2, 'interface': 'register', 'title': '注册成功-不带类型', 'method': 'POST', 'url': '/member/register', 'data': '{\"mobile_phone\": \"#phone#\",\"pwd\": \"#pwd#\",\"reg_name\":\"赵云\"}', 'expected': '{\"code\": 0,\"msg\": \"OK\",}', 'result': '通过', 'check_sql': 'SELECT * FROM futureloan.member WHERE mobile_phone = \"{}\"'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "注册" ]
+  },
+  "source" : "b7b71de48cf1556f.json",
+  "parameterValues" : [ "{'case_id': 2, 'interface': 'register', 'title': '注册成功-不带类型', 'method': 'POST', 'url': '/member/register', 'data': '{\"mobile_phone\": \"#phone#\",\"pwd\": \"#pwd#\",\"reg_name\":\"赵云\"}', 'expected': '{\"code\": 0,\"msg\": \"OK\",}', 'result': '通过', 'check_sql': 'SELECT * FROM futureloan.member WHERE mobile_phone = \"{}\"'}" ]
+}

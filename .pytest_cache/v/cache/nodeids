@@ -1,0 +1,6 @@
+[
+  "testcases/test_demo1.py::TestTegister::test_register_success[case0]",
+  "testcases/test_demo1.py::TestTegister::test_register_success[case1]",
+  "testcases/test_demo1.py::TestTegister::test_register_success[case2]",
+  "testcases/test_demo1.py::TestTegister::test_register_success[case3]"
+]

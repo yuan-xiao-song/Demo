@@ -1,0 +1,401 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-VSKKTCM",
+    "children" : [ {
+      "name" : "17308-MainThread",
+      "children" : [ {
+        "name" : "注册成功",
+        "uid" : "f300254c69b0dd5b",
+        "parentUid" : "edca5e01cc4593b4ed2cf4c0f2f47411",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590049029702,
+          "stop" : 1590049030092,
+          "duration" : 390
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 1, 'interface': 'register', 'title': '注册成功', 'method': 'POST', 'url': '/member/register', 'data': '{\"mobile_phone\": \"#phone#\",\"pwd\": \"#pwd#\",\"type\":\"1\",\"reg_name\":\"战神吕布\"}', 'expected': '{\"code\": 0,\"msg\": \"OK\",}', 'result': '通过', 'check_sql': 'SELECT * FROM futureloan.member WHERE mobile_phone = \"{}\"'}" ]
+      }, {
+        "name" : "注册成功-不带类型",
+        "uid" : "77a2f950c1fca9",
+        "parentUid" : "edca5e01cc4593b4ed2cf4c0f2f47411",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590049030097,
+          "stop" : 1590049030483,
+          "duration" : 386
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 2, 'interface': 'register', 'title': '注册成功-不带类型', 'method': 'POST', 'url': '/member/register', 'data': '{\"mobile_phone\": \"#phone#\",\"pwd\": \"#pwd#\",\"reg_name\":\"赵云\"}', 'expected': '{\"code\": 0,\"msg\": \"OK\",}', 'result': '通过', 'check_sql': 'SELECT * FROM futureloan.member WHERE mobile_phone = \"{}\"'}" ]
+      }, {
+        "name" : "注册成功-不带注册名",
+        "uid" : "f7fa01fa1a5754ee",
+        "parentUid" : "edca5e01cc4593b4ed2cf4c0f2f47411",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590049030487,
+          "stop" : 1590049030855,
+          "duration" : 368
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 3, 'interface': 'register', 'title': '注册成功-不带注册名', 'method': 'POST', 'url': '/member/register', 'data': '{\"mobile_phone\":\"#phone#\",\"pwd\": \"#pwd#\",\"type\":\"1\"}', 'expected': '{\"code\": 0,\"msg\": \"OK\",}', 'result': '通过', 'check_sql': 'SELECT * FROM futureloan.member WHERE mobile_phone = \"{}\"'}" ]
+      }, {
+        "name" : "注册成功-不带类型和注册名",
+        "uid" : "9592a6a7129dc54d",
+        "parentUid" : "edca5e01cc4593b4ed2cf4c0f2f47411",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590049030859,
+          "stop" : 1590049031221,
+          "duration" : 362
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 4, 'interface': 'register', 'title': '注册成功-不带类型和注册名', 'method': 'POST', 'url': '/member/register', 'data': '{\"mobile_phone\": \"#phone#\",\"pwd\": \"#pwd#\"}', 'expected': '{\"code\": 0,\"msg\": \"OK\",}', 'result': '通过', 'check_sql': 'SELECT * FROM futureloan.member WHERE mobile_phone = \"{}\"'}" ]
+      } ],
+      "uid" : "edca5e01cc4593b4ed2cf4c0f2f47411"
+    }, {
+      "name" : "11224-MainThread",
+      "children" : [ {
+        "name" : "注册成功-不带类型和注册名",
+        "uid" : "c4367950c8821867",
+        "parentUid" : "27e6d96962541df7cfec306a97200b74",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590049103802,
+          "stop" : 1590049104175,
+          "duration" : 373
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 4, 'interface': 'register', 'title': '注册成功-不带类型和注册名', 'method': 'POST', 'url': '/member/register', 'data': '{\"mobile_phone\": \"#phone#\",\"pwd\": \"#pwd#\"}', 'expected': '{\"code\": 0,\"msg\": \"OK\",}', 'result': '通过', 'check_sql': 'SELECT * FROM futureloan.member WHERE mobile_phone = \"{}\"'}" ]
+      }, {
+        "name" : "注册成功-不带类型",
+        "uid" : "2c93bfcf35dba00f",
+        "parentUid" : "27e6d96962541df7cfec306a97200b74",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590049102896,
+          "stop" : 1590049103273,
+          "duration" : 377
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 2, 'interface': 'register', 'title': '注册成功-不带类型', 'method': 'POST', 'url': '/member/register', 'data': '{\"mobile_phone\": \"#phone#\",\"pwd\": \"#pwd#\",\"reg_name\":\"赵云\"}', 'expected': '{\"code\": 0,\"msg\": \"OK\",}', 'result': '通过', 'check_sql': 'SELECT * FROM futureloan.member WHERE mobile_phone = \"{}\"'}" ]
+      }, {
+        "name" : "注册成功",
+        "uid" : "4db7d090bd10637c",
+        "parentUid" : "27e6d96962541df7cfec306a97200b74",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590049102483,
+          "stop" : 1590049102891,
+          "duration" : 408
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 1, 'interface': 'register', 'title': '注册成功', 'method': 'POST', 'url': '/member/register', 'data': '{\"mobile_phone\": \"#phone#\",\"pwd\": \"#pwd#\",\"type\":\"1\",\"reg_name\":\"战神吕布\"}', 'expected': '{\"code\": 0,\"msg\": \"OK\",}', 'result': '通过', 'check_sql': 'SELECT * FROM futureloan.member WHERE mobile_phone = \"{}\"'}" ]
+      }, {
+        "name" : "注册成功-不带注册名",
+        "uid" : "b73658ee4cb901ff",
+        "parentUid" : "27e6d96962541df7cfec306a97200b74",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590049103278,
+          "stop" : 1590049103798,
+          "duration" : 520
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 3, 'interface': 'register', 'title': '注册成功-不带注册名', 'method': 'POST', 'url': '/member/register', 'data': '{\"mobile_phone\":\"#phone#\",\"pwd\": \"#pwd#\",\"type\":\"1\"}', 'expected': '{\"code\": 0,\"msg\": \"OK\",}', 'result': '通过', 'check_sql': 'SELECT * FROM futureloan.member WHERE mobile_phone = \"{}\"'}" ]
+      } ],
+      "uid" : "27e6d96962541df7cfec306a97200b74"
+    }, {
+      "name" : "4192-MainThread",
+      "children" : [ {
+        "name" : "注册成功-不带类型和注册名",
+        "uid" : "1637ad04d0e5324b",
+        "parentUid" : "3ea7baf34613fe657997ab4ed1368da2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590049164883,
+          "stop" : 1590049165255,
+          "duration" : 372
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 4, 'interface': 'register', 'title': '注册成功-不带类型和注册名', 'method': 'POST', 'url': '/member/register', 'data': '{\"mobile_phone\": \"#phone#\",\"pwd\": \"#pwd#\"}', 'expected': '{\"code\": 0,\"msg\": \"OK\",}', 'result': '通过', 'check_sql': 'SELECT * FROM futureloan.member WHERE mobile_phone = \"{}\"'}" ]
+      }, {
+        "name" : "注册成功",
+        "uid" : "4502642095595400",
+        "parentUid" : "3ea7baf34613fe657997ab4ed1368da2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590049163732,
+          "stop" : 1590049164125,
+          "duration" : 393
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 1, 'interface': 'register', 'title': '注册成功', 'method': 'POST', 'url': '/member/register', 'data': '{\"mobile_phone\": \"#phone#\",\"pwd\": \"#pwd#\",\"type\":\"1\",\"reg_name\":\"战神吕布\"}', 'expected': '{\"code\": 0,\"msg\": \"OK\",}', 'result': '通过', 'check_sql': 'SELECT * FROM futureloan.member WHERE mobile_phone = \"{}\"'}" ]
+      }, {
+        "name" : "注册成功-不带类型",
+        "uid" : "67deea80c924d692",
+        "parentUid" : "3ea7baf34613fe657997ab4ed1368da2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590049164129,
+          "stop" : 1590049164500,
+          "duration" : 371
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 2, 'interface': 'register', 'title': '注册成功-不带类型', 'method': 'POST', 'url': '/member/register', 'data': '{\"mobile_phone\": \"#phone#\",\"pwd\": \"#pwd#\",\"reg_name\":\"赵云\"}', 'expected': '{\"code\": 0,\"msg\": \"OK\",}', 'result': '通过', 'check_sql': 'SELECT * FROM futureloan.member WHERE mobile_phone = \"{}\"'}" ]
+      }, {
+        "name" : "注册成功-不带注册名",
+        "uid" : "18bc2414a44e4458",
+        "parentUid" : "3ea7baf34613fe657997ab4ed1368da2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590049164504,
+          "stop" : 1590049164879,
+          "duration" : 375
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 3, 'interface': 'register', 'title': '注册成功-不带注册名', 'method': 'POST', 'url': '/member/register', 'data': '{\"mobile_phone\":\"#phone#\",\"pwd\": \"#pwd#\",\"type\":\"1\"}', 'expected': '{\"code\": 0,\"msg\": \"OK\",}', 'result': '通过', 'check_sql': 'SELECT * FROM futureloan.member WHERE mobile_phone = \"{}\"'}" ]
+      } ],
+      "uid" : "3ea7baf34613fe657997ab4ed1368da2"
+    }, {
+      "name" : "18244-MainThread",
+      "children" : [ {
+        "name" : "注册成功-不带注册名",
+        "uid" : "31fa72770650a91",
+        "parentUid" : "94f60394a9f4db9f677ed0d1296f896e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1590139949146,
+          "stop" : 1590139949148,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 3, 'interface': 'register', 'title': '注册成功-不带注册名', 'method': 'POST', 'url': '/member/register', 'data': '{\"mobile_phone\":\"#phone#\",\"pwd\": \"#pwd#\",\"type\":\"1\"}', 'expected': '{\"code\": 0,\"msg\": \"OK\",}', 'result': '通过', 'check_sql': 'SELECT * FROM futureloan.member WHERE mobile_phone = \"{}\"'}" ]
+      }, {
+        "name" : "注册成功-不带类型和注册名",
+        "uid" : "6b71c6921cdc4d9b",
+        "parentUid" : "94f60394a9f4db9f677ed0d1296f896e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1590139949157,
+          "stop" : 1590139949159,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 4, 'interface': 'register', 'title': '注册成功-不带类型和注册名', 'method': 'POST', 'url': '/member/register', 'data': '{\"mobile_phone\": \"#phone#\",\"pwd\": \"#pwd#\"}', 'expected': '{\"code\": 0,\"msg\": \"OK\",}', 'result': '通过', 'check_sql': 'SELECT * FROM futureloan.member WHERE mobile_phone = \"{}\"'}" ]
+      }, {
+        "name" : "注册成功-不带类型",
+        "uid" : "b7b71de48cf1556f",
+        "parentUid" : "94f60394a9f4db9f677ed0d1296f896e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1590139949136,
+          "stop" : 1590139949138,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 2, 'interface': 'register', 'title': '注册成功-不带类型', 'method': 'POST', 'url': '/member/register', 'data': '{\"mobile_phone\": \"#phone#\",\"pwd\": \"#pwd#\",\"reg_name\":\"赵云\"}', 'expected': '{\"code\": 0,\"msg\": \"OK\",}', 'result': '通过', 'check_sql': 'SELECT * FROM futureloan.member WHERE mobile_phone = \"{}\"'}" ]
+      }, {
+        "name" : "注册成功",
+        "uid" : "7cc0517edcc57a6c",
+        "parentUid" : "94f60394a9f4db9f677ed0d1296f896e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1590139949005,
+          "stop" : 1590139949007,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 1, 'interface': 'register', 'title': '注册成功', 'method': 'POST', 'url': '/member/register', 'data': '{\"mobile_phone\": \"#phone#\",\"pwd\": \"#pwd#\",\"type\":\"1\",\"reg_name\":\"战神吕布\"}', 'expected': '{\"code\": 0,\"msg\": \"OK\",}', 'result': '通过', 'check_sql': 'SELECT * FROM futureloan.member WHERE mobile_phone = \"{}\"'}" ]
+      } ],
+      "uid" : "94f60394a9f4db9f677ed0d1296f896e"
+    }, {
+      "name" : "25296-MainThread",
+      "children" : [ {
+        "name" : "注册成功-不带注册名",
+        "uid" : "3ad18ccba6752584",
+        "parentUid" : "df6753c5d2e84b696127f58f069e25cd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590139678249,
+          "stop" : 1590139678630,
+          "duration" : 381
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 3, 'interface': 'register', 'title': '注册成功-不带注册名', 'method': 'POST', 'url': '/member/register', 'data': '{\"mobile_phone\":\"#phone#\",\"pwd\": \"#pwd#\",\"type\":\"1\"}', 'expected': '{\"code\": 0,\"msg\": \"OK\",}', 'result': '通过', 'check_sql': 'SELECT * FROM futureloan.member WHERE mobile_phone = \"{}\"'}" ]
+      }, {
+        "name" : "注册成功-不带类型",
+        "uid" : "592f594322c8ae1f",
+        "parentUid" : "df6753c5d2e84b696127f58f069e25cd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590139677856,
+          "stop" : 1590139678245,
+          "duration" : 389
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 2, 'interface': 'register', 'title': '注册成功-不带类型', 'method': 'POST', 'url': '/member/register', 'data': '{\"mobile_phone\": \"#phone#\",\"pwd\": \"#pwd#\",\"reg_name\":\"赵云\"}', 'expected': '{\"code\": 0,\"msg\": \"OK\",}', 'result': '通过', 'check_sql': 'SELECT * FROM futureloan.member WHERE mobile_phone = \"{}\"'}" ]
+      }, {
+        "name" : "注册成功",
+        "uid" : "5528a79b63839641",
+        "parentUid" : "df6753c5d2e84b696127f58f069e25cd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590139677423,
+          "stop" : 1590139677852,
+          "duration" : 429
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 1, 'interface': 'register', 'title': '注册成功', 'method': 'POST', 'url': '/member/register', 'data': '{\"mobile_phone\": \"#phone#\",\"pwd\": \"#pwd#\",\"type\":\"1\",\"reg_name\":\"战神吕布\"}', 'expected': '{\"code\": 0,\"msg\": \"OK\",}', 'result': '通过', 'check_sql': 'SELECT * FROM futureloan.member WHERE mobile_phone = \"{}\"'}" ]
+      }, {
+        "name" : "注册成功-不带类型和注册名",
+        "uid" : "b696786084307d4b",
+        "parentUid" : "df6753c5d2e84b696127f58f069e25cd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590139678636,
+          "stop" : 1590139679012,
+          "duration" : 376
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 4, 'interface': 'register', 'title': '注册成功-不带类型和注册名', 'method': 'POST', 'url': '/member/register', 'data': '{\"mobile_phone\": \"#phone#\",\"pwd\": \"#pwd#\"}', 'expected': '{\"code\": 0,\"msg\": \"OK\",}', 'result': '通过', 'check_sql': 'SELECT * FROM futureloan.member WHERE mobile_phone = \"{}\"'}" ]
+      } ],
+      "uid" : "df6753c5d2e84b696127f58f069e25cd"
+    }, {
+      "name" : "13860-MainThread",
+      "children" : [ {
+        "name" : "注册成功-不带注册名",
+        "uid" : "6087d82b50998f0d",
+        "parentUid" : "90404551e19ece8135e32dccf5bb3cd2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590137592088,
+          "stop" : 1590137592464,
+          "duration" : 376
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 3, 'interface': 'register', 'title': '注册成功-不带注册名', 'method': 'POST', 'url': '/member/register', 'data': '{\"mobile_phone\":\"#phone#\",\"pwd\": \"#pwd#\",\"type\":\"1\"}', 'expected': '{\"code\": 0,\"msg\": \"OK\",}', 'result': '通过', 'check_sql': 'SELECT * FROM futureloan.member WHERE mobile_phone = \"{}\"'}" ]
+      }, {
+        "name" : "注册成功-不带类型和注册名",
+        "uid" : "de25d9cae0465ce1",
+        "parentUid" : "90404551e19ece8135e32dccf5bb3cd2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590137592468,
+          "stop" : 1590137592870,
+          "duration" : 402
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 4, 'interface': 'register', 'title': '注册成功-不带类型和注册名', 'method': 'POST', 'url': '/member/register', 'data': '{\"mobile_phone\": \"#phone#\",\"pwd\": \"#pwd#\"}', 'expected': '{\"code\": 0,\"msg\": \"OK\",}', 'result': '通过', 'check_sql': 'SELECT * FROM futureloan.member WHERE mobile_phone = \"{}\"'}" ]
+      }, {
+        "name" : "注册成功-不带类型",
+        "uid" : "fdaf490948a212d6",
+        "parentUid" : "90404551e19ece8135e32dccf5bb3cd2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590137591713,
+          "stop" : 1590137592085,
+          "duration" : 372
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 2, 'interface': 'register', 'title': '注册成功-不带类型', 'method': 'POST', 'url': '/member/register', 'data': '{\"mobile_phone\": \"#phone#\",\"pwd\": \"#pwd#\",\"reg_name\":\"赵云\"}', 'expected': '{\"code\": 0,\"msg\": \"OK\",}', 'result': '通过', 'check_sql': 'SELECT * FROM futureloan.member WHERE mobile_phone = \"{}\"'}" ]
+      }, {
+        "name" : "注册成功",
+        "uid" : "86673ca2fd7bc71f",
+        "parentUid" : "90404551e19ece8135e32dccf5bb3cd2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590137591207,
+          "stop" : 1590137591690,
+          "duration" : 483
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 1, 'interface': 'register', 'title': '注册成功', 'method': 'POST', 'url': '/member/register', 'data': '{\"mobile_phone\": \"#phone#\",\"pwd\": \"#pwd#\",\"type\":\"1\",\"reg_name\":\"战神吕布\"}', 'expected': '{\"code\": 0,\"msg\": \"OK\",}', 'result': '通过', 'check_sql': 'SELECT * FROM futureloan.member WHERE mobile_phone = \"{}\"'}" ]
+      } ],
+      "uid" : "90404551e19ece8135e32dccf5bb3cd2"
+    }, {
+      "name" : "22872-MainThread",
+      "children" : [ {
+        "name" : "注册成功-不带类型和注册名",
+        "uid" : "4e067c6dd88682ad",
+        "parentUid" : "e6d95572beb24a255f795327c11644cd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590139961517,
+          "stop" : 1590139961913,
+          "duration" : 396
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 4, 'interface': 'register', 'title': '注册成功-不带类型和注册名', 'method': 'POST', 'url': '/member/register', 'data': '{\"mobile_phone\": \"#phone#\",\"pwd\": \"#pwd#\"}', 'expected': '{\"code\": 0,\"msg\": \"OK\",}', 'result': '通过', 'check_sql': 'SELECT * FROM futureloan.member WHERE mobile_phone = \"{}\"'}" ]
+      }, {
+        "name" : "注册成功-不带注册名",
+        "uid" : "3d3bf03e36412f8d",
+        "parentUid" : "e6d95572beb24a255f795327c11644cd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590139961143,
+          "stop" : 1590139961512,
+          "duration" : 369
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 3, 'interface': 'register', 'title': '注册成功-不带注册名', 'method': 'POST', 'url': '/member/register', 'data': '{\"mobile_phone\":\"#phone#\",\"pwd\": \"#pwd#\",\"type\":\"1\"}', 'expected': '{\"code\": 0,\"msg\": \"OK\",}', 'result': '通过', 'check_sql': 'SELECT * FROM futureloan.member WHERE mobile_phone = \"{}\"'}" ]
+      }, {
+        "name" : "注册成功",
+        "uid" : "bf49f9b5ec999a60",
+        "parentUid" : "e6d95572beb24a255f795327c11644cd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590139960352,
+          "stop" : 1590139960749,
+          "duration" : 397
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 1, 'interface': 'register', 'title': '注册成功', 'method': 'POST', 'url': '/member/register', 'data': '{\"mobile_phone\": \"#phone#\",\"pwd\": \"#pwd#\",\"type\":\"1\",\"reg_name\":\"战神吕布\"}', 'expected': '{\"code\": 0,\"msg\": \"OK\",}', 'result': '通过', 'check_sql': 'SELECT * FROM futureloan.member WHERE mobile_phone = \"{}\"'}" ]
+      }, {
+        "name" : "注册成功-不带类型",
+        "uid" : "4557b30e07a45aee",
+        "parentUid" : "e6d95572beb24a255f795327c11644cd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590139960754,
+          "stop" : 1590139961138,
+          "duration" : 384
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 2, 'interface': 'register', 'title': '注册成功-不带类型', 'method': 'POST', 'url': '/member/register', 'data': '{\"mobile_phone\": \"#phone#\",\"pwd\": \"#pwd#\",\"reg_name\":\"赵云\"}', 'expected': '{\"code\": 0,\"msg\": \"OK\",}', 'result': '通过', 'check_sql': 'SELECT * FROM futureloan.member WHERE mobile_phone = \"{}\"'}" ]
+      } ],
+      "uid" : "e6d95572beb24a255f795327c11644cd"
+    } ],
+    "uid" : "01d4de8a5576f70e5f7d7b844548ad5f"
+  } ]
+}

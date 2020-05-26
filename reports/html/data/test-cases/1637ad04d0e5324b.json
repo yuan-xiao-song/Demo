@@ -1,0 +1,244 @@
+{
+  "uid" : "1637ad04d0e5324b",
+  "name" : "注册成功-不带类型和注册名",
+  "fullName" : "testcases.test_demo1.TestTegister#test_register_success",
+  "historyId" : "061d216f2e56f5990efc4358dde557bf",
+  "time" : {
+    "start" : 1590049164883,
+    "stop" : 1590049165255,
+    "duration" : 372
+  },
+  "description" : "注册成功",
+  "descriptionHtml" : "<p>注册成功</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "rand_number",
+    "time" : {
+      "start" : 1590049164882,
+      "stop" : 1590049164882,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "注册成功",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "第一步：准备数据",
+      "time" : {
+        "start" : 1590049164883,
+        "stop" : 1590049164885,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "接口地址",
+        "time" : {
+          "start" : 1590049164883,
+          "stop" : 1590049164883,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "64a5284e5e05132b",
+          "name" : "接口请求地址",
+          "source" : "64a5284e5e05132b.attach",
+          "type" : "text/plain",
+          "size" : 50
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "请求方法",
+        "time" : {
+          "start" : 1590049164884,
+          "stop" : 1590049164884,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "9652ee85c516fe54",
+          "name" : "接口请求方法",
+          "source" : "9652ee85c516fe54.TEXT",
+          "type" : "text/plain",
+          "size" : 4
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "请求数据",
+        "time" : {
+          "start" : 1590049164884,
+          "stop" : 1590049164885,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "ce0b4b6a10b14bdf",
+          "name" : "用例数据",
+          "source" : "ce0b4b6a10b14bdf.JSON",
+          "type" : "application/json",
+          "size" : 50
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "预期结果",
+        "time" : {
+          "start" : 1590049164885,
+          "stop" : 1590049164885,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "ae3a7189bf2301d7",
+          "name" : "预期结果",
+          "source" : "ae3a7189bf2301d7.TEXT",
+          "type" : "text/plain",
+          "size" : 24
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 4,
+      "hasContent" : true,
+      "stepsCount" : 4
+    }, {
+      "name" : "第二步：获取响应结果",
+      "time" : {
+        "start" : 1590049164885,
+        "stop" : 1590049165170,
+        "duration" : 285
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "264acca122aba1f7",
+        "name" : "响应结果",
+        "source" : "264acca122aba1f7.json",
+        "type" : "application/json",
+        "size" : 216
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "第三步：测试结果",
+      "time" : {
+        "start" : 1590049165171,
+        "stop" : 1590049165254,
+        "duration" : 83
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3e788019e298bbc8",
+        "name" : "测试结果",
+        "source" : "3e788019e298bbc8.txt",
+        "type" : "text/plain",
+        "size" : 49
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "44592c6f27ea801d",
+      "name" : "log",
+      "source" : "44592c6f27ea801d.txt",
+      "type" : "text/plain",
+      "size" : 89
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 7,
+    "hasContent" : true,
+    "stepsCount" : 7
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "注册功能"
+  }, {
+    "name" : "suite",
+    "value" : "注册"
+  }, {
+    "name" : "tag",
+    "value" : "注册"
+  }, {
+    "name" : "story",
+    "value" : "注册正常情况"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTegister"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-VSKKTCM"
+  }, {
+    "name" : "thread",
+    "value" : "4192-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_demo1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'case_id': 4, 'interface': 'register', 'title': '注册成功-不带类型和注册名', 'method': 'POST', 'url': '/member/register', 'data': '{\"mobile_phone\": \"#phone#\",\"pwd\": \"#pwd#\"}', 'expected': '{\"code\": 0,\"msg\": \"OK\",}', 'result': '通过', 'check_sql': 'SELECT * FROM futureloan.member WHERE mobile_phone = \"{}\"'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "注册" ]
+  },
+  "source" : "1637ad04d0e5324b.json",
+  "parameterValues" : [ "{'case_id': 4, 'interface': 'register', 'title': '注册成功-不带类型和注册名', 'method': 'POST', 'url': '/member/register', 'data': '{\"mobile_phone\": \"#phone#\",\"pwd\": \"#pwd#\"}', 'expected': '{\"code\": 0,\"msg\": \"OK\",}', 'result': '通过', 'check_sql': 'SELECT * FROM futureloan.member WHERE mobile_phone = \"{}\"'}" ]
+}
