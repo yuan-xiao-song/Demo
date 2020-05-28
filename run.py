@@ -1,9 +1,8 @@
-import os
+
 
 import pytest
 
-from common.filepath import REPORTDIR
+
 
 if __name__ == '__main__':
-    pytest.main(['-s', '-q', "--alluredir=allure_report"])
-
+    pytest.main(['-s', '-q', "--alluredir=reports/allure_report"])

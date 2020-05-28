@@ -9,7 +9,7 @@
       <excludeFolder url="file://$MODULE_DIR$/zip" />
       <excludeFolder url="file://$MODULE_DIR$/../weixin/venv" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.7 (Demo) (2)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.7" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
